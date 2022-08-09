@@ -1,0 +1,42 @@
+.rightSide{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.rightSide input{
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 15px;
+    color: black;
+}
+
+.rightSide button{
+    height: 32px;
+    width: 70px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.Heart{
+    width: 30px;
+    height: 30px;
+    padding-right: 25px;
+    box-shadow: none;
+    border-bottom: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-top: 0ch;
+    color: red;
+    box-sizing:border-box;
+}
+
